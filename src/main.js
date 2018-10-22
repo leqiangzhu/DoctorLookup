@@ -21,11 +21,13 @@ $(document).ready(function() {
                   Name: ${main.data[i].profile.first_name} ${
                     main.data[i].profile.last_name
                   }</h1>
-                    Address: <h5>${main.data[i].practices[0].visit_address.street} ${
+                  <h5>Address: ${main.data[i].practices[0].visit_address.street} ${
                     main.data[i].practices[0].visit_address.city
                   } ${main.data[i].practices[0].visit_address.state} ${
                     main.data[i].practices[0].visit_address.zip
-                  }</h5> Phonenumber: <h6>${main.data[i].practices[0].phones[0].number}</h6>
+                  }</h5> <h6>Phonenumber: ${main.data[i].practices[0].phones[0].number}</h6> <p>Accepting new patients (true/false) ${
+                    main.data[i].practices[0].accepts_new_patients
+                  }</p>
               `);
                 }
               } else {
