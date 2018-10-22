@@ -17,10 +17,10 @@ $(document).ready(function() {
               let body = JSON.parse(response);
               if (body.data.length > 0) {
                 for (let i = 0; i < body.data.length; i++) {
-                  $("#results").append(`
+                  $("#results").append(`<h1>
                   name:'+${body.data[i].profile.first_name} ${
                     body.data[i].profile.last_name
-                  }
+                  }</h1>
                     +"address"+${body.data[i].practices[0].visit_address.street} ${
                     body.data[i].practices[0].visit_address.city
                   } ${body.data[i].practices[0].visit_address.state} ${

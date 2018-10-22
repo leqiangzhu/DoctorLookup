@@ -18,9 +18,9 @@
     "babel-preset-es2015": "^6.24.1",
     "clean-webpack-plugin": "^0.1.18",
     "css-loader": "^0.28.10",
-    "eslint": "^6.4.1",
+    "dotenv-webpack": "^1.5.7",
+    "eslint": "^4.18.2",
     "eslint-loader": "^2.0.0",
-    "eslint-plugin-promise": "^4.0.1",
     "html-webpack-plugin": "^3.0.6",
     "jasmine": "^3.1.0",
     "jasmine-core": "^2.99.0",
@@ -33,7 +33,6 @@
     "karma-jquery": "^0.2.2",
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^2.0.13",
-    "node-sass": "^4.9.4",
     "style-loader": "^0.20.2",
     "uglifyjs-webpack-plugin": "^1.2.2",
     "webpack": "^4.0.1",
@@ -42,9 +41,6 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
-    "dotenv-webpack": "^1.5.7",
-    "electron-to-chromium": "^1.3.80",
-    "es6-promise": "^4.2.5",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.0"
   }
