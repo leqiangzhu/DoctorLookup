@@ -23,27 +23,27 @@
          
     }
 
-    initMap(a,b) {
-      return  new Promise(function(resolve, reject) {
-        let request = new XMLHttpRequest();
-        let url ="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
-      let uluru = {lat: a, lng: b};
+//     initMap(a,b) {
+//       return  new Promise(function(resolve, reject) {
+//         let request = new XMLHttpRequest();
+//         let url ="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+//       let uluru = {lat: a, lng: b};
      
-      let map = new google.maps.Map(
-          document.getElementById('map'), {zoom: 4, center: uluru});
+//       let map = new google.maps.Map(
+//           document.getElementById('map'), {zoom: 4, center: uluru});
       
-      let marker = new google.maps.Marker({position: uluru, map: map});
+//       let marker = new google.maps.Marker({position: uluru, map: map});
     
-    request.onload = function() {
-      if (this.status === 200) {
-        resolve(request.response);
-      } else {
-        reject(Error(request.statusText));
-      }
-    }
-    request.open("GET", url, true);
-    request.send();
-  });
-}
+//     request.onload = function() {
+//       if (this.status === 200) {
+//         resolve(request.response);
+//       } else {
+//         reject(Error(request.statusText));
+//       }
+//     }
+//     request.open("GET", url, true);
+//     request.send();
+//   });
+// }
   }
     
