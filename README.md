@@ -25,7 +25,7 @@
 * npm run build
 * npm run start
 
-## Specifications (today:2018/10/13))
+## Specifications 
 
 | Spec | Input | Output |
 | :------------- | :------------- | :------------- |

@@ -3,17 +3,38 @@
 
 <head>
   <title>DoctorLookup</title>
+  <div class="jumbotron text-center">
+      <h1>DoctorLookup</h1>
+      <p> </p>
+    </div>  
+
+
 </head>
 
 <body>
   <div class="container">
-    <h1>DoctorLookup</h1>
+     
+   
     <form id="Input">
       <label for="name">Search</label>
       <td> <input id="name" type="text"></td>
       <button class="btn btn-warning" type="submit">Submit</button>
     </form>
-  <div id="results"></div>
+    <table>
+        <tr>
+        <th> </th>
+        <th>Name</th>
+        <th>Phonenumber</th>
+        <th>Address </th>
+        <th>Accepting new patients (true/false) </th>
+        </tr>
+      
+          <tbody id="results"> </tbody>
+       
+      
+     
+    </table>
+ 
   <p>
     <p class="Errors"></p>
     </h1>
